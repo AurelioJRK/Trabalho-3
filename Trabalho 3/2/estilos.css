@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.organizar {
+  display: grid;
+  grid-template-rows: auto;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cabeca {
+  background-color: #cff301;
+  height: 40px;
+}
+
+.rodape {
+  background-color: #01640e;
+  height: 40px;
+  
+}
+
+.linhared {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px;
+}
+
+.linhablue {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.bloco {
+  height: auto;
+  border: 10px solid rgb(44, 140, 250);
+  display: grid;
+  background-color: rgb(44, 140, 250);
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.resumo {
+  background-color: red;
+  padding: 50px;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: rgba(97, 5, 150, 0.76);
+  padding: 50px;
+  border-radius: 5px;
+}
